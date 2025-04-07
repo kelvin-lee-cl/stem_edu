@@ -2,7 +2,7 @@
   "name": "stem-learning-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kelvinlee.github.io/stem-learning-app",
+  "homepage": "https://kelvin-lee-cl.github.io/stem_edu",
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
