@@ -24,6 +24,7 @@ import {
     Code as CodeIcon,
     Build as BuildIcon,
     Person as PersonIcon,
+    Info as InfoIcon,
 } from '@mui/icons-material';
 
 const drawerWidth = 240;
@@ -34,6 +35,7 @@ const menuItems = [
     { text: 'Micro:bit Playground', icon: <CodeIcon />, path: '/playground/microbit' },
     { text: 'Arduino Playground', icon: <BuildIcon />, path: '/playground/arduino' },
     { text: 'Profile', icon: <PersonIcon />, path: '/profile' },
+    { text: 'About', icon: <InfoIcon />, path: '/about' },
 ];
 
 interface MainLayoutProps {

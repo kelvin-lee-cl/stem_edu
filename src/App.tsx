@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import Lessons from './pages/Lessons';
 import MicrobitPlayground from './pages/playground/MicrobitPlayground';
 import ArduinoPlayground from './pages/playground/ArduinoPlayground';
+import About from './pages/About';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/lessons" element={<Lessons />} />
             <Route path="/playground/microbit" element={<MicrobitPlayground />} />
             <Route path="/playground/arduino" element={<ArduinoPlayground />} />
+            <Route path="/about" element={<About />} />
           </Routes>
         </MainLayout>
       </Router>
